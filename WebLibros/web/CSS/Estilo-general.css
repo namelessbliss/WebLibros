@@ -1,0 +1,65 @@
+/*
+    Created on : 24/04/2018, 01:11:29 PM
+    Author     : NB
+*/
+
+body{
+	margin:0;
+	font-family: Open sans;
+	background: #8ea6b4;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 330vh;
+
+	/*
+	background: #204862;
+	*/
+}
+
+#Contenedor{
+width: 98%;
+background-color: #ff8f56;
+margin-bottom: 1%;
+margin-left: 1%;
+margin-right: 1%;
+}
+h1{
+    color: #984a59;
+    text-align: center;
+}
+
+.Adorno{
+    width: 20%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+p{
+    text-align: center;
+    color: #e7eff3
+}
+.Entrar{
+    	background: #F60016;
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+
+}
+.DualButton{
+    	padding: 10px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.Salir{
+    	background: #F60016;
+	color: #fff;
+	margin: auto;
+	padding: 10px 40px;
+	cursor: pointer;
+
+}
+.Entrar:active{
+    transform: scale(0.5);
+}
