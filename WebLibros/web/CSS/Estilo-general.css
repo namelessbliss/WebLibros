@@ -63,3 +63,6 @@ p{
 .Entrar:active{
     transform: scale(0.5);
 }
+.Salir:active{
+    transform: scale(0.5);
+}

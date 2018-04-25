@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--Invocar Hoja de estilos-->
         <link rel="stylesheet" type="text/css" href="CSS/Estilo-general.css"/>
+        <script src="../JS/JS-Gneral.js"></script>
     </head>
     <body>
             <div id="Contenedor">
@@ -19,8 +20,8 @@
                 </p>
                 <p><img class="Adorno" src="Imagenes/Página inicial/Libros.png"/></p>
                 <div class="DualButton">
-                    <button type="submit" value="Entrar" class="Entrar">Echar un viztaso</button>
-                    <button type="submit" value="Salir" class="Salir">Salir</button>
+                    <button type="button" value="Entrar" class="Entrar" onclick="location='JSP/Tienda.jsp'">Echar un viztaso</button>
+                    <button type="button" value="Salir" class="Salir" onClick="history.go(-1)">Salir</button>
                 </div>
                 </div>
     </body>
